@@ -1,0 +1,12 @@
+{
+    "kind": "image-manifest-v0",
+    "value": {
+        "bin": [
+            "/bin/docker"
+        ],
+        "network": [
+            "/lib/systemd/network/50-cni.network",
+            "/lib/systemd/network/90-veth.network"
+        ]
+    }
+}

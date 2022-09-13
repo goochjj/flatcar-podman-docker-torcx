@@ -1,0 +1,12 @@
+{
+    "kind": "profile-manifest-v0",
+    "value": {
+        "images": [
+            {
+                "name": "docker",
+                "reference": "podman"
+            }
+        ]
+    }
+}
+

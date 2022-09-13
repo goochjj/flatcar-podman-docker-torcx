@@ -1,0 +1,6 @@
+.DS_Store
+.vagrant
+*.swp
+*.tgz
+*.tar.gz
+
