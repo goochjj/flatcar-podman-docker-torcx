@@ -17,14 +17,12 @@ You will also need the podman sysext from [My Repo](https://github.com/goochjj/f
 ```
 
 
-```
-make podman.raw
-```
-
 And reboot.
 
 # Use
 
 Once you reboot, docker should call podman.  It'll tell you that too, by putting `Emulate Docker CLI using podman. Create /etc/containers/nodocker to quiet msg.` on the console.
+
+Calling something like `dockerd` from the command line will tell you `The current torcx profile did not install a dockerd program.`.
 
 
